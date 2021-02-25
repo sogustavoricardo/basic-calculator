@@ -1,14 +1,22 @@
 *{
-    font-family: Arial, sans-serif;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: 'Raleway', sans-serif;
     background-color: #D3D6DB;
+}
+h1{
+    font-size: 2em;
 }
 header{
     text-align: center;
-    margin: 50px 0px;
+    margin: 5% 0%;
     color:#cc9b40;
 }
 .geraldivs{
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: #2c363d;
     border: 2px solid #cc9b40;
     display: flex;
@@ -18,25 +26,21 @@ header{
 }
 #container{
     height: 450px;
-    width: 400px;
+    width: 450px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.365);
     flex-direction: column;
 }
 #display{
-    width: 350px;
-    height: 70px;
+    width: 90%;
+    height: 15%;
     color: white;
     font-size: 25px;
 }
 #divbaixo{
-    width: 350px;
-    height: 300px;
+    width: 90%;
+    height: 65%;
     flex-direction: row;
     flex-wrap: wrap;
-}
-footer{
-    text-align: center;
-    font-style: italic;
 }
 input{
     outline: 0;
@@ -48,15 +52,27 @@ input[type="button"]{
     color: white;
     font-size: 25px;
     width: 21%;
-    height: 16%;
+    height: 18%;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 input[type="button"]:hover{
     border: 2px solid #cc9b40;
     color:#cc9b40;
+    transform: scale(1.035) /*rotate(2deg)*/; 
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.2);
 }
 #calcular{
     width: 96%;
     height: 16%;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    margin: 2% 0;
+}
+@media screen and (max-width: 480px) {
+    #container{
+        width: auto;
+    }
 }
