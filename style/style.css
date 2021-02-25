@@ -53,8 +53,8 @@ input[type="button"]{
     font-size: 25px;
     width: 21%;
     height: 18%;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.01s;
 }
 input[type="button"]:active{
     border: 2px solid #cc9b40;
