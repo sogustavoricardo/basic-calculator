@@ -1,3 +1,3 @@
 # basic-calculator
 
-## features a serem corrigidas
+## Ainda existem features a serem corrigidas
