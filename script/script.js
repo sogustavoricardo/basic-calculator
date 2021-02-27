@@ -1,4 +1,5 @@
-var display = document.getElementById('display')
+var display = document.querySelector('div.display')
+
 function pressbtn(num){
     display.innerText.length>23?null:(display.innerText+=num);
 }
